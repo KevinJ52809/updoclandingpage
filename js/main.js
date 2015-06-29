@@ -20,12 +20,12 @@ $(function() {
     if( $('#js-type').length > 0 ) {
 
         $("#js-type").typed({
-            strings: ["Sore Throat", "Nutrition", "Medication", "Health"],
-            typeSpeed: 50,
+            strings: ["Headache", "Morning Sickness", "Diet", "Sprained Ankle", "Health"],
+            typeSpeed: 40,
             startDelay: 0,
-            backSpeed: 20,
-            backDelay: 1000,
-            loop: true,
+            backSpeed: 30,
+            backDelay: 2700,
+            loop: false,
             showCursor: false,
             cursorChar: "|"
         });
